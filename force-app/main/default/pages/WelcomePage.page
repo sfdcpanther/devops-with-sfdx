@@ -1,0 +1,6 @@
+<apex:page lightningStylesheets="true">
+  <apex:slds />
+  <div>
+      Welcome {!$User.FirstName} {!$User.LastName}
+  </div> 
+</apex:page>
